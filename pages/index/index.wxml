@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <navigator url="{{item.link}}" hover-class="navigator-hover">
+          <image src="{{item.url}}" class="slide-image" width="355" height="150" />
+        </navigator>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="section">
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item"></view>
+    <view class="flex-item"></view>
+    <view class="flex-item"></view>
+  </view>
+</view>
+<view class="classname">
+  <view class="topic">
+    陌上花开
+  </view>
+  <view class="dot">。。。</view>
+</view>
+
