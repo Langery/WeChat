@@ -1,0 +1,40 @@
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.zn-uploadimg button{
+  width: 90%;
+  margin: 5px auto;
+}
+.navbar{
+  flex: none;
+  display: flex;
+  background: #fff;
+}
+.navbar ,item{
+  width: 100%; 
+  position:relative;
+  flex:auto;
+  text-align: center;
+  line-height: 80rpx;
+  display: -webkit-flex;
+  display: block;
+  margin:0 auto; 
+}
+.navbar .item .active{
+  width: 100%;
+  color: #ffcc00;
+}
+.navbar .item .active:after{
+  border: 1px solid black;
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+  background: #ffcc00;
+}
