@@ -12,9 +12,10 @@
 </view>
 <view class="section">
   <view class="flex-wrp" style="flex-direction:row;">
-    <view class="flex-item"></view>
-    <view class="flex-item"></view>
-    <view class="flex-item"></view>
+    <view class="flex-item" bindtap="othertwo"><image src="../images/4.jpg" /></view>
+    <view class="flex-item"><image src="../images/4.jpg" /></view>
+    <view class="flex-item"><image src="../images/4.jpg" /></view>
+    <view class="flex-item"><image src="../images/4.jpg" /></view>
   </view>
 </view>
 <view class="classname">
