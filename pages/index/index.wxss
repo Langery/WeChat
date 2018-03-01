@@ -52,3 +52,21 @@
   width: 100%;
   height: 100px;
 }
+
+
+/* 点击按钮分布 */
+.flex-wrp{
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+.flex-item{
+  width: 42px;
+  height:42px; 
+  margin:2px 7%;
+}
+.flex-item image{
+  width: 100%;
+  height: 40px;
+}
