@@ -3,7 +3,7 @@
   <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <block wx:for="{{imgUrls}}">
       <swiper-item>
-        <navigator url="{{item.link}}" hover-class="navigator-hover">
+        <navigator url="{{item.link}}" hover-class="navigator-hover" bindtap="toast">
           <image src="{{item.url}}" class="slide-image" width="355" height="150" />
         </navigator>
       </swiper-item>
@@ -21,6 +21,18 @@
   <view class="topic">
     陌上花开
   </view>
-  <view class="dot">。。。</view>
+  <view class="dot" bindtap="othertwo">。。。</view>
+  <view class="box">
+    <view class="tab" bindtap="othertwo"><image src="../images/4.jpg" /></view>
+    <view class="tab"><image src="../images/4.jpg" /></view>
+  </view>
+  <view class="box">
+    <view class="tab"><image src="../images/4.jpg" /></view>
+    <view class="tab"><image src="../images/4.jpg" /></view>
+  </view>
+  <view class="box">
+    <view class="tab"><image src="../images/4.jpg" /></view>
+    <view class="tab"><image src="../images/4.jpg" /></view>
+  </view>
 </view>
 
