@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/help/help",
     "pages/share/share",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/other/one/one",
+    "pages/other/two/two"
   ],
   "window":{
     "backgroundTextStyle":"light",
