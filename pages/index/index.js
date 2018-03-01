@@ -4,6 +4,7 @@ const app = getApp()
 
 Page({
   data: {
+    // 轮播图
     imgUrls:[
       {
         // link:''
@@ -19,6 +20,17 @@ Page({
     interval: 5000,
     duration: 1000,
     userInfo: {}
+  },
+  // 点击跳转界面事件处理函数
+  toast:function(){
+    wx.navigateTo({
+      url: '../other/one/one',
+    })
+  },
+  othertwo:function(){
+    wx.navigateTo({
+      url: '../other/two/two',
+    })
   },
   //事件处理函数
   bindViewTap: function() {
