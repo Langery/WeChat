@@ -1,0 +1,7 @@
+<!--pages/other/two/two.wxml-->
+<scroll-view class="scroll-view_H" scroll-x="true" style="width:100%;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-left="{{scrollLeft}}">
+  <view id="green" class="scroll-view-item_H bc_green" style='background:#006e5f;'></view>
+  <view id="red" class="scroll-view-item_H bc_red" style="background:#dd3b44;"></view>
+  <view id="yellow" class="scroll-view-item_H bc_yellow" style="background:#f2de76;"></view>
+  <view id="blue" class="scroll-view-item_H bc_blue" style="background:#276893;"></view>
+</scroll-view>
