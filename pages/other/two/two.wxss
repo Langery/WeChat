@@ -10,3 +10,12 @@
   width: 100%;
   height: 200px;
 }
+.pho {
+  width:80%;
+  display: block;
+  margin: 10px auto;
+}
+.lookin{
+  font-size:14px;
+  padding-left:2%;
+}
