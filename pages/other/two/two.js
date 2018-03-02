@@ -36,6 +36,21 @@ Page({
     this.setData({
       scrollLeft:this.data.scrollLeft + 10
     })
+  },
+  // camera拍照
+  takePhoto(){
+    const ctx = wx.createCameraContext()
+    ctx.takePhoto({
+      quality: 'high',
+      success: (res) => {
+        this.setData({
+          src:res.tempImagePath
+        })
+      }
+    })
+  },
+  error(e){
+    console.log(e.detail)
   }
   
 })
