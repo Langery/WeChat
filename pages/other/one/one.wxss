@@ -13,6 +13,10 @@ page{
   display: flex;
   background: #fff;
 }
+.navbar text{
+  display: inline-block;
+  margin: 5px 8%;
+}
 .navbar ,item{
   width: 100%; 
   position:relative;
