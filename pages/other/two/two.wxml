@@ -5,3 +5,8 @@
   <view id="yellow" class="scroll-view-item_H bc_yellow" style="background:#f2de76;"></view>
   <view id="blue" class="scroll-view-item_H bc_blue" style="background:#276893;"></view>
 </scroll-view>
+
+<camera device-position="back" flash="off" binderror="error" style="width:100%;height:300px;"></camera>
+<button type="primary" bindtap="takePhoto" class="pho">拍照</button>
+<view class="lookin">预览</view>
+<image mode="widthFix" src="{{src}}"></image>
