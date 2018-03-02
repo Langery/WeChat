@@ -37,6 +37,7 @@
       "iconPath": "pages/images/用户.png",
       "pagePath": "pages/me/me",
       "text": "我的"
-    }]
+    }],
+    "backgroundColor": "#fff"
   }
 }
