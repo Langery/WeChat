@@ -20,7 +20,7 @@
 </view>
 <view class="classname">
   <view class="topic">
-    初出茅庐
+    初始
   </view>
   <view class="dot" bindtap="othertwo"><image src='../images/更多.png' /></view>
   <view class="box">
