@@ -5,7 +5,13 @@ App({
     
     // 登录
     wx.login({
-      
+      success: res => {
+        if (res.code) {
+          console.log(res)
+        } else {
+          console.log('获取用户信息失败')
+        }
+      }
     })
     // 获取用户信息
     wx.getSetting({
@@ -26,6 +32,10 @@ App({
           })
         }
       }
+    })
+    // 打开调试
+    wx.setEnableDebug({
+      enableDebug: true
     })
   },
   globalData: {

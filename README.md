@@ -5,3 +5,7 @@ The folder is about the WeChat's cord.
 - style
 - camera
 - assembly
+
+## Route
+
+> app.json
