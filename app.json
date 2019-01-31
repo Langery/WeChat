@@ -21,22 +21,22 @@
       "selectedIconPath": "pages/images/首页_填充.png",
       "iconPath": "pages/images/首页.png",
       "pagePath": "pages/index/index",
-      "text": "首页"
+      "text": "初识"
     },{
       "selectedIconPath": "pages/images/帮助_填充.png",
       "iconPath": "pages/images/帮助.png",
       "pagePath": "pages/help/help",
-      "text": "其他"
+      "text": "时光匣"
     },{
       "selectedIconPath": "pages/images/分类_填充.png",
       "iconPath": "pages/images/分类.png",
       "pagePath": "pages/share/share",
-      "text": "分享"
+      "text": "故事"
     },{
       "selectedIconPath": "pages/images/用户_填充.png",
       "iconPath": "pages/images/用户.png",
       "pagePath": "pages/me/me",
-      "text": "我的"
+      "text": "自定义"
     }],
     "backgroundColor": "#fff"
   }

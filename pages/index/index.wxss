@@ -4,7 +4,6 @@ swiper{
 }
 .slide-image {
   width: 100%;
-  /* height: auto; */
 }
 #choice {
   height: 60px;
