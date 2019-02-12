@@ -5,7 +5,8 @@
     "pages/share/share",
     "pages/me/me",
     "pages/other/one/one",
-    "pages/other/two/two"
+    "pages/other/two/two",
+    "pages/other/three/three"
   ],
   "window":{
     "backgroundTextStyle":"light",

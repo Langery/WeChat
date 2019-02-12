@@ -11,7 +11,7 @@
   </swiper>
 </view>
 <view class="section">
-  <view class="flex-wrp" style="flex-direction:row;">
+  <view class="flex-wrp">
     <view class="flex-item" bindtap="othertwo"><image src="../images/4.jpg" /><text>音乐</text></view>
     <view class="flex-item"><image src="../images/4.jpg" /><text>文章</text></view>
     <view class="flex-item"><image src="../images/4.jpg" /><text>照片</text></view>
@@ -24,7 +24,7 @@
   </view>
   <view class="dot" bindtap="othertwo"><image src='../images/更多.png' /></view>
   <view class="box">
-    <view class="tab" bindtap="othertwo"><image src="../images/4.jpg" /></view>
+    <view class="tab"><image src="../images/4.jpg" /></view>
     <view class="tab"><image src="../images/4.jpg" /></view>
   </view>
   <view class="box">
