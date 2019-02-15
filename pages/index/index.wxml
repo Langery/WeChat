@@ -3,7 +3,7 @@
   <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <block wx:for="{{imgUrls}}" wx:key="unique">
       <swiper-item>
-        <navigator url="{{item.link}}" hover-class="navigator-hover" bindtap="toast">
+        <navigator :url="{{item.link}}" hover-class="navigator-hover" bindtap="toast">
           <image src="{{item.url}}" class="slide-image" />
         </navigator>
       </swiper-item>
