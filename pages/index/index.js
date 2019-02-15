@@ -37,6 +37,11 @@ Page({
       url: '../other/two/two',
     })
   },
+  thethree:function(){
+    wx.navigateTo({
+      url: '../other/three/three',
+    })
+  },
   //事件处理函数
   bindViewTap: function() {
     
