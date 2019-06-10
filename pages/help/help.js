@@ -5,7 +5,25 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    markers: [{
+      id: 0,
+      width: 50,
+      height: 50
+    }],
+    controls: [{
+      id: 1,
+      position: {
+        left: 0, 
+        top: 300 - 50,
+        width: 50,
+        height: 50
+      },
+      clickable: true
+    }],
+    polyline: [{
+      width: 2,
+      dottedLine: true
+    }]
   },
 
   /**

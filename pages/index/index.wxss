@@ -68,21 +68,25 @@ swiper{
   height: auto;
 }
 .flex-item{
-  display: block;
-  background: pink;
-  width: 100%;
+  display: inline-block;
+  /* background: pink; */
+  width: 50%;
   height: 40px; 
   margin: 0 auto;
+  margin-bottom: 5px;
   text-align: center;
 }
 .flex-item text{
   font-size: 16px;
   color: green;
+  display:inline-block;
+  padding-top:10px;
 }
 .flex-item image{
   width: 42px;
   height: 40px;
   float: left;
   padding-left: 10px;
+  padding-top: 2px;
 }
 
