@@ -4,6 +4,18 @@ const app = getApp()
 
 Page({
   data: {
+    /**
+     * 页面初始化数据
+     */
+    // 图片列表，用于循环
+    imgList: [
+      {
+        url: '../images/4.jpg'
+      },
+      {
+        url: '../images/4.jpg'
+      }
+    ],
     // 轮播图
     // 图片地址
     imgUrls:[

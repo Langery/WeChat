@@ -24,16 +24,9 @@
   </view>
   <view class="dot" bindtap="othertwo"><image src='../images/更多.png' /></view>
   <view class="box">
-    <view class="tab"><image src="../images/4.jpg" /></view>
-    <view class="tab"><image src="../images/4.jpg" /></view>
-  </view>
-  <view class="box">
-    <view class="tab"><image src="../images/4.jpg" /></view>
-    <view class="tab"><image src="../images/4.jpg" /></view>
-  </view>
-  <view class="box">
-    <view class="tab"><image src="../images/4.jpg" /></view>
-    <view class="tab"><image src="../images/4.jpg" /></view>
+    <view class="tab" wx:for="{{imgList}}">
+      <image src="{{item.url}}"/>
+    </view>
   </view>
 </view>
 
