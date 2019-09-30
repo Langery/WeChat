@@ -1,6 +1,7 @@
 <script>
 import wepy from '@wepy/core'
 
+// 可复用的 Component 实例，作为自定义元素
 wepy.component({
   // 选项
 })

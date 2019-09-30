@@ -27,7 +27,7 @@ wepy.page({
 <config>
 {
   "usingComponents": {
-    "comA": "../components/comA"
+    "comA": "~@/components/comA"
   }
 }
 </config>

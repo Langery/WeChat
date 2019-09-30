@@ -57,7 +57,7 @@ wepy.app({
 </script>
 <config>
 {
-    pages: [
+    pages: [ // 配置跳转路径，直接引入即可，默认文件位置统一放到 pages 文件夹内
       // 'pages/index'
       'pages/example'
     ],
