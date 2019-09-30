@@ -1,0 +1,33 @@
+<script>
+import wepy from '@wepy/core'
+
+wepy.page({
+  // 选项
+  data: {
+    a: 1
+  },
+  plus: function () {
+    // 点击 “+“ 按钮式触发
+    this.a++
+  }
+})
+</script>
+
+<template>
+  <div class="example-div">
+    Hello World
+  </div>
+</template>
+
+<style scope>
+
+</style>
+
+// 引入 comA 组件
+<config>
+{
+  "usingComponents": {
+    "comA": "../components/comA"
+  }
+}
+</config>

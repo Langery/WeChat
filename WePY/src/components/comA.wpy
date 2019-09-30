@@ -1,0 +1,15 @@
+<script>
+import wepy from '@wepy/core'
+
+wepy.component({
+  // 选项
+})
+</script>
+
+<template>
+  
+</template>
+
+<style scoped>
+
+</style>
