@@ -4,17 +4,17 @@
  * 
  * 获取方法：
  * const appInstance = getApp()
- * console.log(appInstance.globalData) // I am global data
+ * console.log(appInstance.globalData)
  */
 App({
   onLaunch (options) {
     // 展示本地存储能力
-    
     // 登录
     wx.login({
       success: res => {
         if (res.code) {
           console.log(res)
+          console.log('the user has login')
         } else {
           console.log('获取用户信息失败')
         }
@@ -25,9 +25,8 @@ App({
       enableDebug: true
     })
   },
-  onShow (options) {
-
-  },
+  // onShow (options) {
+  // },
   onHide () {
 
   },

@@ -55,14 +55,30 @@ Page({
     })
   },
   //事件处理函数
-  bindViewTap: function() {
+  bindViewTap: function(event) {
+    console.log(event)
   },
   // lunch by create the page
   onLoad: function (options) {
-    // console.log('onLoad test');
+    console.log('onLoad test')
+    // 查看是否授权
+    wx.getSetting({
+      success: res => {
+        console.log(res)
+        if (res.authSetting['scope.userInfo']) {
+          // 获取登录用户信息
+          wx.getUserInfo({
+            success: res => {
+              var userInfo = res.userInfo
+              console.log(userInfo)
+            }
+          })
+        }
+      }
+    })
   },
   // 页面出现在前台时执行
-  onShow: function () {},
+  // onShow: function () {},
   // 页面首次渲染完毕时执行
   onReady: function () {},
   // 页面从前台变为后台时执行
@@ -79,6 +95,8 @@ Page({
   onPageScroll: function () {},
   // 页面尺寸变化时执行
   onResize: function () {},
+  // 事件响应函数
+  viewTap: function () {},
   getUserInfo: function(e) {
   }
 })
