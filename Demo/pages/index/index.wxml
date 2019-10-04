@@ -9,23 +9,25 @@
       </swiper-item>
     </block>
   </swiper>
-</view>
-<view class="section">
-  <view class="flex-wrp">
-    <view class="flex-item" bindtap="othertwo"><image src="../images/4.jpg" /><text>音乐</text></view>
-    <view class="flex-item" bindtap="thethree"><image src="../images/4.jpg" /><text>文章</text></view>
-    <view class="flex-item"><image src="../images/4.jpg" /><text>照片</text></view>
-    <view class="flex-item"><image src="../images/4.jpg" /><text>时间轴</text></view>
+  <view class="section">
+    <view class="flex-wrp">
+      <view class="flex-item" bindtap="othertwo"><image src="../images/4.jpg" /><text>音乐</text></view>
+      <view class="flex-item" bindtap="thethree"><image src="../images/4.jpg" /><text>文章</text></view>
+      <view class="flex-item"><image src="../images/4.jpg" /><text>照片</text></view>
+      <view class="flex-item"><image src="../images/4.jpg" /><text>时间轴</text></view>
+    </view>
   </view>
-</view>
-<view class="classname">
-  <view class="topic">
-    初始
-  </view>
-  <view class="dot" bindtap="othertwo"><image src='../images/更多.png' /></view>
-  <view class="box">
-    <view class="tab" wx:for="{{imgList}}">
-      <image src="{{item.url}}"/>
+  <view class="classname">
+    <view class="topic">
+      初始
+    </view>
+    <view class="dot" bindtap="othertwo">
+      <image src='../images/更多.png' />
+    </view>
+    <view class="box">
+      <view class="tab" wx:for="{{imgList}}">
+        <image src="{{item.url}}"/>
+      </view>
     </view>
   </view>
 </view>
