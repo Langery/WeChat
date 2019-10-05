@@ -14,7 +14,23 @@ App({
       success: res => {
         if (res.code) {
           console.log(res)
-          console.log('the user has login')
+          // console.log('the user has login')
+          // 查看是否授权
+          wx.getSetting({
+            success: res => {
+              console.log(res)
+              if (res.authSetting['scope.userInfo']) {
+                // 获取登录用户信息
+                wx.getUserInfo({
+                  success: res => {
+                    var userInfo = res.userInfo
+                    console.log(userInfo)
+                    this.globalData = userInfo
+                  }
+                })
+              }
+            }
+          })
         } else {
           console.log('获取用户信息失败')
         }

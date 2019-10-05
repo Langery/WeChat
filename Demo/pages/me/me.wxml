@@ -1,4 +1,4 @@
 <!--pages/me/me.wxml-->
 <view class="me">
-
+  <open-data class="user-img" type="userAvatarUrl"></open-data>
 </view>

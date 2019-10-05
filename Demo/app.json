@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/help/help",
+    "pages/map/map",
     "pages/share/share",
     "pages/me/me",
     "pages/other/one/one",
@@ -28,7 +28,7 @@
       {
         "selectedIconPath": "pages/images/帮助_填充.png",
         "iconPath": "pages/images/帮助.png",
-        "pagePath": "pages/help/help",
+        "pagePath": "pages/map/map",
         "text": "时光匣"
       },
       {

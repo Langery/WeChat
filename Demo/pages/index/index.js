@@ -57,25 +57,11 @@ Page({
   //事件处理函数
   bindViewTap: function(event) {
     console.log(event)
+    console.log(app)
   },
   // lunch by create the page
   onLoad: function (options) {
     console.log('onLoad test')
-    // 查看是否授权
-    wx.getSetting({
-      success: res => {
-        console.log(res)
-        if (res.authSetting['scope.userInfo']) {
-          // 获取登录用户信息
-          wx.getUserInfo({
-            success: res => {
-              var userInfo = res.userInfo
-              console.log(userInfo)
-            }
-          })
-        }
-      }
-    })
   },
   // 页面出现在前台时执行
   // onShow: function () {},
