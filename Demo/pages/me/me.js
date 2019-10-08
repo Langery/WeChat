@@ -10,15 +10,15 @@ Page({
   },
 
   getUserInfo () {
-    // console.log(app)
-    this.userInfo = app.globalData
-    console.log(this.userInfo)
+    this.userInfo = app.globalData.userInfo
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
     this.getUserInfo()
+    // get user infor and save in a site
+    this.setData({userInfo: this.userInfo})
   },
 
   /**

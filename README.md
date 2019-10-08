@@ -5,6 +5,7 @@ The folder is about the WeChat's cord.
 - style
 - camera
 - assembly
+- get user information
 
 ## Route
 
@@ -24,3 +25,9 @@ The folder is about the WeChat's cord.
   }
 ```
 2. 每个 wpy 文件都必须有 `template` 、`script` 和 `style`，否则会出现 null 的情况
+3. 可以通过一下方式在页面获取 app.js 数据：
+``` javascript
+  const app = getApp()
+
+  this.setData({界面获取名: 数据来源名})
+```

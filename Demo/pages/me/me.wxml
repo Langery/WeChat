@@ -1,4 +1,6 @@
 <!--pages/me/me.wxml-->
 <view class="me">
-  <open-data class="user-img" type="userAvatarUrl"></open-data>
+  <text>{{userInfo.nickName}}</text>
+  <image class="user-img" src="{{userInfo.avatarUrl}}" />
+  <text>{{userInfo.city}}</text>
 </view>

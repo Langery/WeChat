@@ -25,7 +25,8 @@ App({
                   success: res => {
                     var userInfo = res.userInfo
                     console.log(userInfo)
-                    this.globalData = userInfo
+                    this.globalData.userInfo = userInfo
+                    console.log(this.globalData)
                   }
                 })
               }
