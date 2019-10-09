@@ -20,6 +20,7 @@ Page({
       clickable: true
     }],
     polyline: [{
+      color: "#FF0000DD",
       width: 2,
       dottedLine: true
     }]
@@ -30,12 +31,20 @@ Page({
   onLoad: function (options) {
     console.log(options)
   },
-  regionchange: function () {
+  regionchange: function (e) {
+    console.log(e.type)
+  },
+  controltap: function (e) {
+    console.log(e.controlId)
+  },
+  markertap: function (e) {
+    console.log(e.markerId)
   },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {},
+  onReady: function () {
+  },
 
   /**
    * 生命周期函数--监听页面显示
