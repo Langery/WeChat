@@ -1,6 +1,11 @@
+<import src="../template/demo" />
 <!--pages/me/me.wxml-->
-<view class="me">
-  <text>{{userInfo.nickName}}</text>
-  <image class="user-img" src="{{userInfo.avatarUrl}}" />
-  <text>{{userInfo.city}}</text>
+<view>
+  <view class="me">
+    <text class="user-name">{{userInfo.nickName}}</text>
+    <image class="user-img" src="{{userInfo.avatarUrl}}" />
+    <text class="user-city">{{userInfo.city}}</text>
+  </view>
+  <template is="demo"></template>
 </view>
+

@@ -7,6 +7,11 @@ The folder is about the WeChat's cord.
 - assembly
 - get user information
 
+## 关于小程序发布相关内容
+
+1. 关于小程序的[网络](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html)配置信息
+2. [后端 API](https://developers.weixin.qq.com/miniprogram/dev/framework/server-ability/backend-api.html)
+
 ## Route
 
 > app.json
@@ -30,4 +35,19 @@ The folder is about the WeChat's cord.
   const app = getApp()
 
   this.setData({界面获取名: 数据来源名})
+```
+4. template 使用
+&emsp;创建：
+``` html
+  <template name="demo">
+  </template>
+```
+&emsp;wxml 引入：
+``` html
+  <import src="template.wxml" />
+  <template is="demo"></template>
+```
+&emsp;css 引入：
+``` css
+  @import 'demo.wxss'
 ```

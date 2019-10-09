@@ -11,4 +11,15 @@
   position: absolute;
   top: 50rpx;
   left: 30rpx;
+  border-radius: 50%;
+}
+.user-name{
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+.user-city{
+  position: absolute;
+  top: 65px;
+  left: 100px;
 }
