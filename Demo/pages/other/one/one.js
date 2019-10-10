@@ -33,7 +33,7 @@ Page({
       sourceType: ['album','camera'],
       success: function(res){
         _this.setData({
-          tempFilePath:res.tempFilePaths
+          tempFilePaths:res.tempFilePaths
         })
       }
     })

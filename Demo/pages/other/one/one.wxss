@@ -17,7 +17,7 @@ page{
   display: inline-block;
   margin: 5px 8%;
 }
-.navbar ,item{
+.navbar .item{
   width: 100%; 
   position:relative;
   flex:auto;
