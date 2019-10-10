@@ -21,7 +21,7 @@ Page({
       this.data.open = false
     } else {
       this.setData({
-        translate: 'transform: translateX(' + this.data.windowWidth * 0.75 + 'px)'
+        translate: 'transform: translateX(' + this.data.windowWidth * 0.35 + 'px)'
       })
       this.data.open = true
     }
@@ -38,7 +38,7 @@ Page({
     this.data.newmark = e.touches[0].pageX
     if (this.data.mark < this.data.newmark) {
       if (this.data.status == 1) {
-        if (this.data.windowWidth*0.75 > Math.abs(this.data.newmark - this.data.startmark)) {
+        if (this.data.windowWidth*0.35 > Math.abs(this.data.newmark - this.data.startmark)) {
           this.setData({
             translate: 'transform: translateX(' + (this.data.newmark - this.data.startmark) + 'px)'
           })
@@ -50,9 +50,9 @@ Page({
         this.setData({
           translate: "transform: translateX(" + (this.data.newmark - this.data.startmark) + "px)"
         })
-      } else if (this.data.status == 2 && this.data.startmark - this.data.newmark < this.data.windowWidth*0.75) {
+      } else if (this.data.status == 2 && this.data.startmark - this.data.newmark < this.data.windowWidth*0.35) {
         this.setData({
-          translate: 'transform: translateX(' + (this.data.newmark + this.data.windowWidth*0.75 - this.data.startmark) + 'px)'
+          translate: 'transform: translateX(' + (this.data.newmark + this.data.windowWidth*0.35 - this.data.startmark) + 'px)'
         })
       }
     }

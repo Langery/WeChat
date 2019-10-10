@@ -24,7 +24,7 @@ page,.page {
   height: 100%;
   position: fixed;
   width: 750rpx;
-  background-color: rgb(57, 125, 230);
+  background-color: rgb(149, 219, 240);
   z-index: 0;
   transition: All 0.4s ease; 
   -webkit-transition: All 0.4s ease;
