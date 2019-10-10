@@ -20,6 +20,26 @@ The folder is about the WeChat's cord.
 
 > 官网: [WePY](https://wepyjs.github.io/wepy-docs/)
 
+## Demo 项目
+
+&emsp;初入小程序，将一些做过的或者没有做过的都记录下来，后续会持续更新和整理...
+
+> had & will do
+
+- [x] 下拉刷新
+- [x] 路由跳转
+- [x] 轮播图
+- [x] 获取登录用户信息
+- [ ] 版本发布和部署
+- [ ] 图片上传，待优化
+- [ ] 地图，待优化
+- [ ] 视频/音频
+  - [ ] 音乐
+  - [ ] 视频
+- [ ] 与后台做数据对接
+- [ ] 支付
+- [x] 待续...
+
 ### Note
 
 1. 启动项目时需要更改 package.json，否则会出现启动错误
@@ -30,21 +50,25 @@ The folder is about the WeChat's cord.
   }
 ```
 2. 每个 wpy 文件都必须有 `template` 、`script` 和 `style`，否则会出现 null 的情况
-3. 可以通过一下方式在页面获取 app.js 数据：
+3. App() 必须在 app.js 中注册，有且只有一个，可以通过一下方式在页面获取 app.js 数据：
 ``` javascript
   const app = getApp()
 
   this.setData({界面获取名: 数据来源名})
 ```
 4. template 使用
+
 &emsp;创建：
 ``` html
   <template name="demo">
+    ...
   </template>
 ```
 &emsp;wxml 引入：
 ``` html
+  <!-- 引入地址 -->
   <import src="template.wxml" />
+  <!-- 使用组件 -->
   <template is="demo"></template>
 ```
 &emsp;css 引入：
