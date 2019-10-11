@@ -40,6 +40,10 @@ The folder is about the WeChat's cord.
 - [ ] 支付
 - [x] 待续...
 
+> need to deal
+
+- [ ] 左侧栏点击一次后仍可以点击第二次，再向右移动
+
 ### Note
 
 1. 启动项目时需要更改 package.json，否则会出现启动错误

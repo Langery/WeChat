@@ -11,7 +11,21 @@ Page({
     newmark: 0,
     status: 1,
     startmark: 0,
-    windowWidth: wx.getSystemInfoSync().windowWidth
+    windowWidth: wx.getSystemInfoSync().windowWidth,
+    itemMap: [
+      {
+        name: 'First'
+      },
+      {
+        name: 'Second'
+      },
+      {
+        name: 'Third'
+      },
+      {
+        name: 'Fourth'
+      }
+    ]
   },
   tapbtn:function(e){
     if (this.data.open) {
