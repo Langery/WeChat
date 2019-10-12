@@ -11,6 +11,7 @@ The folder is about the WeChat's cord.
 
 1. 关于小程序的[网络](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html)配置信息
 2. [后端 API](https://developers.weixin.qq.com/miniprogram/dev/framework/server-ability/backend-api.html)
+3. [小程序开发须知-不看别后悔，踩坑踩到爆](https://www.jianshu.com/p/3f9c98d8e793)
 
 ## Route
 
