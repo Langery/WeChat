@@ -17,7 +17,7 @@ The folder is about the WeChat's cord.
 
 > app.json
 
-## WePY
+## WePY 项目
 
 > 官网: [WePY](https://wepyjs.github.io/wepy-docs/)
 
