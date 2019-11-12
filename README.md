@@ -80,3 +80,16 @@ The folder is about the WeChat's cord.
 ``` css
   @import 'demo.wxss'
 ```
+
+5. 数据缓存
+
+``` javascript
+  // save
+  wx.setStorage({
+    key: key,
+    data: data
+  })
+  // get
+  wx.getStorageSync(key)
+```
+
