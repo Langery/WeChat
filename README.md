@@ -93,3 +93,10 @@ The folder is about the WeChat's cord.
   wx.getStorageSync(key)
 ```
 
+6. union 涉及到发布流程，需要通过[微信开放平台](https://open.weixin.qq.com/)进行小程序的提交才可以获取到 union
+
+~~6. union 主要通过 `wx.getUserInfo` 的 UnionId 为主~~
+
+7. 登录流程
+
+![登录(图片来源微信开发文档)](./img/login.jpg)
