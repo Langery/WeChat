@@ -100,3 +100,7 @@ The folder is about the WeChat's cord.
 7. 登录流程
 
 ![登录(图片来源微信开发文档)](./img/login.jpg)
+
+8. 生命周期
+
+![生命周期](./img/life.png)
